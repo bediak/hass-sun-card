@@ -9,13 +9,15 @@ Home assistant Sun card based on Google weather design
 - This card uses [Sun integration](https://www.home-assistant.io/integrations/sun/) so it needs to be enabled
 
 ## Install
+If you are using the original home-assistant-sun-card from AitorDB, you need to uninstall it first!
+
 ### HACS
 Home assistant Sun card is available by default on HACS directory. More info [here](https://hacs.xyz/).
 
 ### Manually
-1. Download the `home-assistant-sun-card.js` file from the [latest release available](https://github.com/AitorDB/home-assistant-sun-card/releases) and save it in your `configuration/www` folder.
+1. Download the `hass-sun-card.js` file from the [latest release available](https://github.com/bediak/hass-sun-card/releases) and save it in your `configuration/www` folder.
 1. Go to `Configuration > Lovelace dashboard > Resources` in Home Assistant and click on `Add resource`.
-    1. Add `/local/community/home-assistant-sun-card.js` to the URL.
+    1. Add `/local/community/hass-sun-card.js` to the URL.
     1. Choose `Javascript Module` as Resource type.
 
 ## Set up
@@ -40,7 +42,7 @@ Note: If you get an error similar to this `Custom element doesn't exist` you wil
 | timeFormat    | `'12h'`/`'24h'`      | Displayed time format                | Locale based on Home assistant language             |
 | title         | `string`             | Card title                           | Doesn't display a title by default                  |         |
 
-(<sup>1</sup>) Supported languages: `da`, `de`, `en`, `es`, `et`, `fi`, `fr`, `hu`, `it`, `nl`, `pl`, `pt-BR`, `ru`, `sl`, `sv`
+(<sup>1</sup>) Supported languages: `da`, `de`, `en`, `es`, `et`, `fi`, `fr`, `hu`, `it`, `nl`, `pl`, `pt-BR`, `ru`, `sl`, `sv`, `cs`
 
 ## Known issues
 - Home assistant seems to provide next events instead today's one 
