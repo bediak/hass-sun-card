@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/bediak/hass-sun-card.git"
   },
-  "author": "Petr Přeučil <petr.preucil+git@gmail.com>",
+  "author": "Petr Přeučil",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bediak/hass-sun-card/issues"
